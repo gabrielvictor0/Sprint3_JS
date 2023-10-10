@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit="cadastro()">
+        <label for="name">Nome completo:</label>
+        <input type="text" id="name" placeholder="nome completo">
+
+        <label for="nick">Nickname:</label>
+        <input type="text" id="nick" placeholder="nickname">
+        
+        <button onclick="cadastro()">Cadastrar</button>
+
+        <p id="result"></p>
+    </form>
+    <script>
+        function cadastro() {
+            let nome = document.getElementById('name').value;
+            let nickname = document.getElementById('nick').value;
+
+            document.getElementById('result').innerHTML.replace(nome, `Ola, ${nickname}`);
+        }
+    </script>
+</body>
+</html>
