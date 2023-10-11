@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        //objeto literal
+        let gabriel = {
+            nome : "Gabriel",
+            sobrenome: "Souza Almeida",
+            idade : 17
+        };
+
+        gabriel.Cpf = '23490875209';
+
+        //objeto tradicional
+        let rubens = new Object();
+        rubens.nome = "Rubens";
+
+        console.log(gabriel);
+        console.log(rubens);
+
+        let pessoas = ["Gabriel", "Rubens"]
+
+        // pessoas.forEach(function(pessoa, i ){
+        //     console.log(`pessoa${i + 1} Nome:${pessoa}`);
+        // })
+
+        for (let index = 0; index < pessoas.length; index++) {
+            const pessoa = pessoas[index];
+            console.log(` pessoa${index + 1} Nome:${pessoa}`);
+        }
+    </script>
+</body>
+</html>
