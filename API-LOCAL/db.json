@@ -1,9 +1,51 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "rota" : [
+
+  ],
+  "TipoEventos": [{
+    "id": 1,
+    "titulo": "C#",
+    "instituicao": "SENAI",
+    "dataEvento": "20/10/2023"
+  },
+  {
+    "id": 1,
+    "titulo": "Ruby",
+    "instituicao": "SENAC",
+    "dataEvento": "10/10/2023"
+  },
+  {
+    "id": 1,
+    "titulo": "Java",
+    "instituicao": "SESI",
+    "dataEvento": "04/10/2023"
   }
+  ],
+  "posts": [
+    {
+      "title": "backend dos cria",
+      "author": "GV",
+      "id": 1
+    },
+    {
+      "title": "Aprendendo a utilizar o Json Server",
+      "author": "Eduardo",
+      "id": 4
+    },
+    {
+      "title": "Rubão",
+      "author": "Rubens Galinha",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
